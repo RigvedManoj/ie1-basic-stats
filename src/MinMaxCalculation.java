@@ -11,7 +11,7 @@ public class MinMaxCalculation {
         return min;
     }
     public static double getMax (double[] arr){
-        double max = Double.MIN_VALUE;
+        double max = -1*(Double.MAX_VALUE);
         for (int i = 0; i < arr.length; i++) {
             if (max < arr[i]) {
                 max = arr[i];
